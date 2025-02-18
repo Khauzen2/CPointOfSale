@@ -15,8 +15,9 @@ void main(void) {
 			printf("===========================\n\n");
 			printf("[1] Palony and Chips\t\t\t\t\tR 15.00\n");
 			printf("[2] Palony Vienna and Chips\t\t\t\tR 20.00\n");
-			printf("[3] Palony Vienna Eggs and Chips\t\t\tR 25.00\n");
-			printf("[4] Palony Vienna Eggs Russian and Chips\t\tR 30.00\n");
+			printf("[3] Palony Vienna Egg and Chips\t\t\tR 25.00\n");
+			printf("[4] Palony Vienna Egg Russian and Chips\t\tR 30.00\n");
+			printf("[5] Palony Vienna Egg Russian lettice and Chips\t\tR 35.00\n");
 			printf("\nEnter the code :\t");
 			scanf("%d", &code);
 			printf("\nEnter quantity :\t");
@@ -30,7 +31,12 @@ void main(void) {
 				case 3: price = 25;
 					break;
 				case 4: price = 30;
-					break;		
+					break;
+				case 5: price = 35;
+					break;
+				default: 
+					printf("Invalid: Please enter options from 1 to 5.");
+					break;			
 			}
 			system("cls");
 			amt = price * qty;
