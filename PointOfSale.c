@@ -11,7 +11,7 @@ void main(void) {
 		do {
 			system("cls");
 			printf("===========================\n");
-			printf("======KHAUZEN KOTAS========\n");
+			printf("======KHAUZEN BUNNY KOTAS========\n");
 			printf("===========================\n\n");
 			printf("[1] Palony and Chips\t\t\t\t\tR 15.00\n");
 			printf("[2] Palony Vienna and Chips\t\t\t\tR 20.00\n");
